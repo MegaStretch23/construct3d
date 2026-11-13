@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "construct3d"
+version = "0.1.0"
+description = "Turn a product list (JSON or CSV with dimensions and optional parts) into one self-contained HTML file with an interactive 3D view (three.js bundled)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+construct3d = "construct3d.cli:main"
+
+[tool.setuptools]
+packages = ["construct3d"]
+
+[tool.setuptools.package-data]
+construct3d = ["viewer/*", "vendor/*"]

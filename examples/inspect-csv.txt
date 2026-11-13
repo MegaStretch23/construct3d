@@ -1,0 +1,6 @@
+id             W x D x H (cm)  parts  source      at (x, z)
+-------------  --------------  -----  ----------  ----------------
+tea-tin        7 x 7 x 11      1      preset:box  (-9.375, -5.875)
+sticker-sheet  15 x 0.5 x 21   1      preset:box  (9.375, -5.875)
+phone-stand    9 x 8 x 12      1      preset:box  (-9.375, 5.875)
+3 products, 3 parts; scene bounds [-13.875, 0.0, -9.375] .. [16.875, 21.0, 9.875] cm

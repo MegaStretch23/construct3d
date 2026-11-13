@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Canvas tote",
+    "category": "bags",
+    "width": 38,
+    "depth": 10,
+    "height": 40,
+    "color": "#7f8c8d",
+    "price": "$16.00"
+  },
+  {
+    "name": "Art print 30x40",
+    "category": "wall art",
+    "width": 30,
+    "depth": 3,
+    "height": 40,
+    "color": "#d68910",
+    "price": "$22.00"
+  },
+  {
+    "name": "Desk lamp",
+    "category": "lighting",
+    "price": "$31.00",
+    "parts": [
+      {
+        "name": "base",
+        "shape": "cylinder",
+        "size": [
+          8,
+          2
+        ],
+        "pos": [
+          0,
+          1,
+          0
+        ],
+        "color": "#2c3e50"
+      },
+      {
+        "name": "arm",
+        "shape": "cylinder",
+        "size": [
+          0.8,
+          30
+        ],
+        "pos": [
+          0,
+          17,
+          0
+        ],
+        "color": "#7f8c8d"
+      },
+      {
+        "name": "shade",
+        "shape": "cone",
+        "size": [
+          7,
+          9
+        ],
+        "pos": [
+          0,
+          36.5,
+          0
+        ],
+        "color": "#d68910"
+      },
+      {
+        "name": "bulb",
+        "shape": "sphere",
+        "size": [
+          2.5
+        ],
+        "pos": [
+          0,
+          33,
+          0
+        ],
+        "color": "#f9e79f"
+      }
+    ]
+  },
+  {
+    "name": "Water bottle",
+    "category": "kitchen",
+    "width": 7,
+    "depth": 7,
+    "height": 24,
+    "color": "#27ae60",
+    "price": "$18.00"
+  },
+  {
+    "name": "Ceramic mug",
+    "category": "kitchen",
+    "width": 8,
+    "depth": 8,
+    "height": 9.5,
+    "color": "#2980b9",
+    "price": "$14.00"
+  },
+  {
+    "name": "Rubber ball",
+    "category": "toys",
+    "width": 6.5,
+    "depth": 6.5,
+    "height": 6.5,
+    "color": "#c0392b",
+    "price": "$3.00"
+  }
+]

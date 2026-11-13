@@ -1,0 +1,7 @@
+canvas-tote        python vs three.js max difference 0.000000 cm
+art-print-30x40    python vs three.js max difference 0.000000 cm
+desk-lamp          python vs three.js max difference 0.000000 cm
+water-bottle       python vs three.js max difference 0.000000 cm
+ceramic-mug        python vs three.js max difference 0.000000 cm
+rubber-ball        python vs three.js max difference 0.000000 cm
+6 items, worst difference 0.000000 cm

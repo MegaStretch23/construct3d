@@ -1,0 +1,376 @@
+{
+ "schema": "construct3d/1",
+ "title": "Constructs",
+ "unit": "cm",
+ "items": [
+  {
+   "id": "canvas-tote",
+   "name": "Canvas tote",
+   "category": "bags",
+   "source": "preset:box",
+   "parts": [
+    {
+     "name": "body",
+     "shape": "box",
+     "size": [
+      38.0,
+      40.0,
+      10.0
+     ],
+     "pos": [
+      0.0,
+      20.0,
+      0.0
+     ],
+     "color": "#7f8c8d"
+    }
+   ],
+   "dims_cm": [
+    38.0,
+    40.0,
+    10.0
+   ],
+   "bounds": {
+    "min": [
+     -19.0,
+     0.0,
+     -5.0
+    ],
+    "max": [
+     19.0,
+     40.0,
+     5.0
+    ]
+   },
+   "price": "$16.00",
+   "position": [
+    -47.5,
+    0,
+    -12.75
+   ]
+  },
+  {
+   "id": "art-print-30x40",
+   "name": "Art print 30x40",
+   "category": "wall art",
+   "source": "preset:poster",
+   "parts": [
+    {
+     "name": "sheet",
+     "shape": "box",
+     "size": [
+      30.0,
+      40.0,
+      0.6
+     ],
+     "pos": [
+      0.0,
+      20.0,
+      0.0
+     ],
+     "color": "#d68910"
+    },
+    {
+     "name": "stand",
+     "shape": "box",
+     "size": [
+      9.0,
+      1.6,
+      3.0
+     ],
+     "pos": [
+      0.0,
+      0.8,
+      0.0
+     ],
+     "color": "#555555"
+    }
+   ],
+   "dims_cm": [
+    30.0,
+    40.0,
+    3.0
+   ],
+   "bounds": {
+    "min": [
+     -15.0,
+     0.0,
+     -1.5
+    ],
+    "max": [
+     15.0,
+     40.0,
+     1.5
+    ]
+   },
+   "price": "$22.00",
+   "position": [
+    0.0,
+    0,
+    -12.75
+   ]
+  },
+  {
+   "id": "desk-lamp",
+   "name": "Desk lamp",
+   "category": "lighting",
+   "source": "parts",
+   "parts": [
+    {
+     "name": "base",
+     "shape": "cylinder",
+     "size": [
+      8.0,
+      2.0
+     ],
+     "pos": [
+      0.0,
+      1.0,
+      0.0
+     ],
+     "color": "#2c3e50"
+    },
+    {
+     "name": "arm",
+     "shape": "cylinder",
+     "size": [
+      0.8,
+      30.0
+     ],
+     "pos": [
+      0.0,
+      17.0,
+      0.0
+     ],
+     "color": "#7f8c8d"
+    },
+    {
+     "name": "shade",
+     "shape": "cone",
+     "size": [
+      7.0,
+      9.0
+     ],
+     "pos": [
+      0.0,
+      36.5,
+      0.0
+     ],
+     "color": "#d68910"
+    },
+    {
+     "name": "bulb",
+     "shape": "sphere",
+     "size": [
+      2.5
+     ],
+     "pos": [
+      0.0,
+      33.0,
+      0.0
+     ],
+     "color": "#f9e79f"
+    }
+   ],
+   "dims_cm": [
+    16.0,
+    41.0,
+    16.0
+   ],
+   "bounds": {
+    "min": [
+     -8.0,
+     0.0,
+     -8.0
+    ],
+    "max": [
+     8.0,
+     41.0,
+     8.0
+    ]
+   },
+   "price": "$31.00",
+   "position": [
+    47.5,
+    0,
+    -12.75
+   ]
+  },
+  {
+   "id": "water-bottle",
+   "name": "Water bottle",
+   "category": "kitchen",
+   "source": "preset:bottle",
+   "parts": [
+    {
+     "name": "body",
+     "shape": "cylinder",
+     "size": [
+      3.5,
+      18.0
+     ],
+     "pos": [
+      0.0,
+      9.0,
+      0.0
+     ],
+     "color": "#27ae60"
+    },
+    {
+     "name": "neck",
+     "shape": "cone",
+     "size": [
+      1.575,
+      6.0
+     ],
+     "pos": [
+      0.0,
+      21.0,
+      0.0
+     ],
+     "color": "#27ae60"
+    }
+   ],
+   "dims_cm": [
+    7.0,
+    24.0,
+    7.0
+   ],
+   "bounds": {
+    "min": [
+     -3.5,
+     0.0,
+     -3.5
+    ],
+    "max": [
+     3.5,
+     24.0,
+     3.5
+    ]
+   },
+   "price": "$18.00",
+   "position": [
+    -47.5,
+    0,
+    12.75
+   ]
+  },
+  {
+   "id": "ceramic-mug",
+   "name": "Ceramic mug",
+   "category": "kitchen",
+   "source": "preset:mug",
+   "parts": [
+    {
+     "name": "body",
+     "shape": "cylinder",
+     "size": [
+      4.0,
+      9.5
+     ],
+     "pos": [
+      -2.375,
+      4.75,
+      0.0
+     ],
+     "color": "#2980b9"
+    },
+    {
+     "name": "handle",
+     "shape": "torus",
+     "size": [
+      2.375,
+      0.475
+     ],
+     "pos": [
+      3.525,
+      4.75,
+      0.0
+     ],
+     "color": "#2980b9"
+    }
+   ],
+   "dims_cm": [
+    12.75,
+    9.5,
+    8.0
+   ],
+   "bounds": {
+    "min": [
+     -6.375,
+     0.0,
+     -4.0
+    ],
+    "max": [
+     6.375,
+     9.5,
+     4.0
+    ]
+   },
+   "price": "$14.00",
+   "position": [
+    0.0,
+    0,
+    12.75
+   ]
+  },
+  {
+   "id": "rubber-ball",
+   "name": "Rubber ball",
+   "category": "toys",
+   "source": "preset:ball",
+   "parts": [
+    {
+     "name": "ball",
+     "shape": "sphere",
+     "size": [
+      3.25
+     ],
+     "pos": [
+      0.0,
+      3.25,
+      0.0
+     ],
+     "color": "#c0392b"
+    }
+   ],
+   "dims_cm": [
+    6.5,
+    6.5,
+    6.5
+   ],
+   "bounds": {
+    "min": [
+     -3.25,
+     0.0,
+     -3.25
+    ],
+    "max": [
+     3.25,
+     6.5,
+     3.25
+    ]
+   },
+   "price": "$3.00",
+   "position": [
+    47.5,
+    0,
+    12.75
+   ]
+  }
+ ],
+ "stats": {
+  "items": 6,
+  "parts": 12,
+  "world_min": [
+   -66.5,
+   0.0,
+   -20.75
+  ],
+  "world_max": [
+   55.5,
+   41.0,
+   16.75
+  ]
+ }
+}
