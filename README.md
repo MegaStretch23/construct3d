@@ -97,3 +97,11 @@ Every file in `examples/` is produced by `sh examples/regenerate.sh` (set `PY=py
 If you need the product data itself, I run pay-per-event tools on Apify, for example the [SEC Form 4 insider cluster scanner](https://apify.com/johnveds15/sec-form4-insider-clusters): $0.0004 per Form 4 filing parsed and $0.02 per insider cluster detected (price read from the Apify API on 2026-11-13). It is unrelated to 3D; there is no paid version of construct3d.
 
 MIT licensed. three.js is MIT, copyright 2010-2024 three.js authors (`construct3d/vendor/LICENSE-three.txt`).
+
+## Merged from constructs-3d
+
+`constructs-3d` was the same idea built twice. Its own files are kept in [`merged/constructs-3d/`](merged/constructs-3d/) (unique parts: see that folder's README and tests); the old repo now points here: https://github.com/MegaStretch23/constructs-3d
+
+## Merged from constructs-3d-viewer
+
+`constructs-3d-viewer` was the same idea built twice. Its own files are kept in [`merged/constructs-3d-viewer/`](merged/constructs-3d-viewer/) (unique parts: see that folder's README and tests); the old repo now points here: https://github.com/MegaStretch23/constructs-3d-viewer
